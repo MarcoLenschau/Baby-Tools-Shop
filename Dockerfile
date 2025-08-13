@@ -3,4 +3,6 @@ WORKDIR /app
 COPY . $WORKDIR
 RUN python -m pip install -r requirements.txt
 EXPOSE 8025
-ENTRYPOINT [ "/bin/sh", "-c", "python babyshop_app/babyshop/urls.py"]
+WORKDIR /app/babyshop_app
+RUN python manage.py migrate
+ENTRYPOINT [ "/bin/sh", "-c", "python manage.py runserver 0.0.0.0:8025"]
