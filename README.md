@@ -1,10 +1,31 @@
 # E-Commerce Project For Baby Tools
 
-### TECHNOLOGIES
+## Table of Contents
+
+1. [Technologies](#technologies)
+2. [Hints](#hints)
+3. [Photos](#photos)
+
+### Technologies
 
 - Python 3.9
 - Django 4.0.2
 - Venv
+- Docker
+
+### Quickstart
+
+#### Build Docker Image
+
+```
+docker build -t shop .
+```
+
+#### Start Docker Container
+
+```
+docker run -d -p 8025:8025 shop
+```
 
 ### Hints
 
