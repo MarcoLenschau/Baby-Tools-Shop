@@ -2,16 +2,15 @@
 
 ## Table of Contents
 
-1. [Technologies](#technologies)
-2. [Hints](#hints)
-3. [Photos](#photos)
+1. [Prerequisites](#prerequisites)
+2. [Quickstart](#quickstart)
+3. [Usage](#usage)
+4. [Photos](#photos)
+5. [Technologies](#technologies)
 
-### Technologies
+### Prerequisites
 
-- Python 3.9
-- Django 4.0.2
-- Venv
-- Docker
+- Linux Server with docker setup
 
 ### Quickstart
 
@@ -20,6 +19,8 @@
 ```
 docker build -t shop .
 ```
+
+### Usage
 
 #### Start Docker Container
 
@@ -56,3 +57,10 @@ This section will cover some hot tips when trying to interacting with this repos
 ##### Login Page
 
 <img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323081044867.jpg"></img>
+
+#### Technologies
+
+- Python 3.9
+- Django 4.0.2
+- Venv
+- Docker
