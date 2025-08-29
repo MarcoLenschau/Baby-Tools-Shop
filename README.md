@@ -6,13 +6,18 @@
 2. [Quickstart](#quickstart)
 3. [Usage](#usage)
 4. [Photos](#photos)
-5. [Technologies](#technologies)
 
 ### Prerequisites
 
-- Linux Server with docker setup
+- Docker
 
 ### Quickstart
+
+### Copy enviroment
+
+```
+cp babyshop_app/babyshop/.env.example babyshop_app/babyshop/.env
+```
 
 #### Build Docker Image
 
@@ -34,6 +39,7 @@ This section will cover some hot tips when trying to interacting with this repos
 
 - Settings & Configuration for Django can be found in `babyshop_app/babyshop/settings.py`
 - Routing: Routing information, such as available routes can be found from any `urls.py` file in `babyshop_app` and corresponding subdirectories
+- Enviroment variable for the project can be found in  `babyshop_app/babyshop/.env.test`
 
 ### Photos
 
@@ -57,10 +63,3 @@ This section will cover some hot tips when trying to interacting with this repos
 ##### Login Page
 
 <img alt="" src="https://github.com/MET-DEV/Django-E-Commerce/blob/master/project_images/capture_20220323081044867.jpg"></img>
-
-#### Technologies
-
-- Python 3.9
-- Django 4.0.2
-- Venv
-- Docker
