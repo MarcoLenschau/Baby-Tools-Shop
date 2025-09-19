@@ -1,10 +1,37 @@
 # E-Commerce Project For Baby Tools
 
-### TECHNOLOGIES
+## Table of Contents
 
-- Python 3.9
-- Django 4.0.2
-- Venv
+1. [Prerequisites](#prerequisites)
+2. [Quickstart](#quickstart)
+3. [Usage](#usage)
+4. [Photos](#photos)
+
+### Prerequisites
+
+- Docker
+
+### Quickstart
+
+### Copy enviroment
+
+```
+cp babyshop_app/babyshop/.env.example babyshop_app/babyshop/.env
+```
+
+#### Build Docker Image
+
+```
+docker build -t shop .
+```
+
+### Usage
+
+#### Start Docker Container
+
+```
+docker run -d -p 8025:8025 shop
+```
 
 ### Hints
 
@@ -12,6 +39,7 @@ This section will cover some hot tips when trying to interacting with this repos
 
 - Settings & Configuration for Django can be found in `babyshop_app/babyshop/settings.py`
 - Routing: Routing information, such as available routes can be found from any `urls.py` file in `babyshop_app` and corresponding subdirectories
+- Enviroment variable for the project can be found in  `babyshop_app/babyshop/.env.test`
 
 ### Photos
 
