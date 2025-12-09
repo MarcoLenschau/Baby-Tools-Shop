@@ -29,7 +29,7 @@ Copy the example environment variables:
 cp babyshop_app/babyshop/.env.example babyshop_app/babyshop/.env
 ```
 
-> **Note:** The `.env.example` contains insecure example values. Adjust the values as needed. Sensitive data like `SECRET_KEY` and `IP` should never be committed to the repository!
+**Note:** The `.env.example` contains insecure example values. Adjust the values as needed. Sensitive data like `SECRET_KEY` and `IP` should never be committed to the repository!
 
 ### Build Docker image
 
